@@ -2,12 +2,12 @@
 
 *.blade.php linguist-language=PHP
 *.blade.php diff=html
-*.css diff=css
-*.html diff=html
+*.css linguist-language=CSS
+*.html linguist-language=HTML
 *.md diff=markdown
 *.php linguist-language=PHP
-*.php diff=php
 *.js linguist-language=JavaScript
+*.hack linguist-language=Hack
 
 /.github export-ignore
 CHANGELOG.md export-ignore
